@@ -38,3 +38,20 @@ codegen/
 # SimBiology backup files
 *.sbproj.backup
 *.sbproj.bak
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- MATLAB ---
+*.asv
+*.m~
+*.mex*
+slprj/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
